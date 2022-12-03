@@ -10,8 +10,7 @@ Trabalho Prático 2 - Fundamentos de Projeto e Análise de Algoritmos
 
 ## Professores responsáveis
 
-* Joyce Chistina de Paiva Carvalho
-* Soraia Lúcia da Silva
+* João Caram Santos de Oliveira
 
 
 1) DISTRIBUINDO ROTAS DE ENTREGA 
@@ -45,7 +44,7 @@ maior acúmulo de temperatura, ou seja, quando foi o período de desgaste mais i
 Os pesquisadores precisam comparar se, ano a ano, há coincidências no período de ocorrência deste 
 desgaste. Por último, é necessário saber o mesmo dado considerando todos os anos representados. 
  
- 1 IPCC Sixth Assessment Report em https://www.ipcc.ch/report/ar6/wg1/ 
+ 
 Tarefas do trabalho: 
 a) Para o problema 1, modelar e implementar soluções baseadas em 
 • Algoritmo guloso. 
