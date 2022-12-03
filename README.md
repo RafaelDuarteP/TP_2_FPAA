@@ -1,7 +1,7 @@
 ## Alunos integrantes da equipe
 
 * Rafael Duarte
-* Joao Vítor Rajão E Souza
+* João Vítor Rajão E Souza
 * Vitor de Souza Xavier
 * Vítor José Lara Bastos
 
