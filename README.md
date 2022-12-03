@@ -1,6 +1,3 @@
-# TP_2_FPAA
-Trabalho Prático 2 - Fundamentos de Projeto e Análise de Algoritmos 
-
 ## Alunos integrantes da equipe
 
 * Rafael Duarte
@@ -11,6 +8,10 @@ Trabalho Prático 2 - Fundamentos de Projeto e Análise de Algoritmos
 ## Professores responsáveis
 
 * João Caram Santos de Oliveira
+
+
+# TP_2_FPAA
+Trabalho Prático 2 - Fundamentos de Projeto e Análise de Algoritmos 
 
 
 1) DISTRIBUINDO ROTAS DE ENTREGA 
