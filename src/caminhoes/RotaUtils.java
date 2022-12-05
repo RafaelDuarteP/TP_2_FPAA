@@ -10,15 +10,21 @@ import java.util.List;
 public class RotaUtils {
 
 	private List<Rota> rotas;
-	private int numCaminhoes;
+	private List<Caminhao> caminhoes;
 
 	public RotaUtils(String nomeArquivo) {
 		this.rotas = new ArrayList<>();
+		this.caminhoes = new ArrayList<>();
 		File file = new File(nomeArquivo);
 
 		try (FileReader fr = new FileReader(file); BufferedReader reader = new BufferedReader(fr)) {
 			String entrada = reader.readLine();
-			this.numCaminhoes = Integer.parseInt(entrada);
+			int numCaminhoes = Integer.parseInt(entrada);
+			
+			for (int i = 0; i < numCaminhoes; i++) {
+				caminhoes.add(new Caminhao());
+			}			
+			
 			entrada = reader.readLine();
 			while (entrada != null) {
 				String[] partes = entrada.strip().split(";");
@@ -30,7 +36,7 @@ public class RotaUtils {
 		} catch (IOException e) {
 			System.err.println("Erro " + e.getMessage() + " no arquivo " + nomeArquivo);
 		} catch (NumberFormatException e) {
-			this.numCaminhoes = 0;
+			this.caminhoes.clear();
 			this.rotas.clear();
 		}
 
@@ -40,8 +46,8 @@ public class RotaUtils {
 		return this.rotas;
 	}
 
-	public int getNumCaminhoes() {
-		return this.numCaminhoes;
+	public List<Caminhao> getCaminhoes() {
+		return this.caminhoes;
 	}
 
 }

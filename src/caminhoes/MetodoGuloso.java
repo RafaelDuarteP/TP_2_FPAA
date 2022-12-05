@@ -1,25 +1,18 @@
 package caminhoes;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class MetodoGuloso {
 	
 	public static void main(String[] args) {
-		distribuirRotas("src/caminhoes/entradas/caminhoes_longo.txt").forEach(c -> System.out.println(c));
+		distribuirRotas("src/caminhoes/entradas/caminhoes_compacto.txt").forEach(c -> System.out.println(c));
 	}
 	
 	static List<Caminhao> distribuirRotas(String nomeArquivo) {
 		RotaUtils utils = new RotaUtils(nomeArquivo);
 
-		List<Caminhao> caminhoes = new ArrayList<>();
+		List<Caminhao> caminhoes = utils.getCaminhoes();
 		List<Rota> rotas = utils.getRotas();
-		int numCaminhoes = utils.getNumCaminhoes();
-
-		for (int i = 0; i < numCaminhoes; i++) {
-			caminhoes.add(new Caminhao());
-		}
-
 		rotas.sort((o1, o2) -> o1.compareTo(o2));
 
 		while (!rotas.isEmpty()) {
