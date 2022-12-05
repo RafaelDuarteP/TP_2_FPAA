@@ -19,11 +19,12 @@ public class RotaUtils {
 		try (FileReader fr = new FileReader(file); BufferedReader reader = new BufferedReader(fr)) {
 			String entrada = reader.readLine();
 			this.numCaminhoes = Integer.parseInt(entrada);
+			entrada = reader.readLine();
 			while (entrada != null) {
-				entrada = reader.readLine();
 				String[] partes = entrada.strip().split(";");
 				Rota rota = new Rota(Integer.parseInt(partes[0]), Integer.parseInt(partes[1]));
 				rotas.add(rota);
+				entrada = reader.readLine();
 			}
 
 		} catch (IOException e) {

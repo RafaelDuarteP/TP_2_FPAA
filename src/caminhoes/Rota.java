@@ -27,17 +27,17 @@ public class Rota implements Comparable<Rota> {
 	}
 
 	@Override
-	public String toString() {
-		return "Rota [id=" + this.id + ", comprimento=" + this.comprimento + "]";
+	public int compareTo(Rota outra) {
+		if (this.comprimento < outra.comprimento)
+			return 1;
+		if (this.comprimento > outra.comprimento)
+			return -1;
+		return 0;
 	}
 
 	@Override
-	public int compareTo(Rota outra) {
-		if (this.comprimento < outra.comprimento)
-			return -1;
-		if (this.comprimento > outra.comprimento)
-			return 1;
-		return 0;
+	public String toString() {
+		return "Rota [id: " + this.id + ", comprimento: " + this.comprimento + "]";
 	}
 
 }
