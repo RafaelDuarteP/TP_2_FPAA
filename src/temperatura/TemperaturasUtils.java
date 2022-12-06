@@ -11,6 +11,9 @@ public class TemperaturasUtils {
 	
 	List<Periodo> periodos;
 
+	public List<Periodo> getPeriodos() {
+		return periodos;
+	}
 	public TemperaturasUtils(String nomeArquivo) {
 		this.periodos = new ArrayList<>();
 		File file = new File(nomeArquivo);

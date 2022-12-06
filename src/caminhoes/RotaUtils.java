@@ -21,8 +21,8 @@ public class RotaUtils {
 			String entrada = reader.readLine();
 			int numCaminhoes = Integer.parseInt(entrada);
 			
-			for (int i = 0; i < numCaminhoes; i++) {
-				caminhoes.add(new Caminhao());
+			for (int i = 1; i <= numCaminhoes; i++) {
+				caminhoes.add(new Caminhao(i));
 			}			
 			
 			entrada = reader.readLine();

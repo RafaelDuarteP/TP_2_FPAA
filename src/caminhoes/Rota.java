@@ -37,7 +37,7 @@ public class Rota implements Comparable<Rota> {
 
 	@Override
 	public String toString() {
-		return "Rota [id: " + this.id + ", comprimento: " + this.comprimento + "]";
+		return "\n Rota [id: " + this.id + ", comprimento: " + this.comprimento + "]";
 	}
 
 }

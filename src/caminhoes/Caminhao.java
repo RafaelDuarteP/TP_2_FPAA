@@ -6,9 +6,19 @@ import java.util.List;
 public class Caminhao {
 
 	private List<Rota> rotas;
+	private int id;
 
-	public Caminhao() {
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public Caminhao(int id) {
 		this.rotas = new ArrayList<>();
+		setId(id);
 	}
 
 	public void addRota(Rota rota) {
@@ -35,9 +45,9 @@ public class Caminhao {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Caminhao [total KM: ");
+		builder.append("Caminhao id: " + this.id +  ", total KM: ");
 		builder.append(this.getTotalKm());
-		builder.append(", rotas: ");
+		builder.append("\n rotas: ");
 		builder.append(this.rotas);
 		builder.append("]");
 		return builder.toString();
