@@ -38,7 +38,7 @@ public class Main {
 
 
 	private static void loggar(String string) {
-		File arqFile = new File("src/saida/saida_caminhoes.md");
+		File arqFile = new File("resultados/readme.md");
 		try {
 			arqFile.createNewFile();
 			writer = new BufferedWriter(new FileWriter(arqFile));

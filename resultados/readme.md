@@ -2,7 +2,7 @@
 ## Metodo Dinamico :
 ### caminhoes_compacto.txt
 
-Tempo: 20
+Tempo: 18
 
 - Caminhao 1, total KM: 586
 	- rotas: [	Rota 12, comprimento: 56, 	Rota 9, comprimento: 75, 	Rota 8, comprimento: 66, 	Rota 7, comprimento: 74, 	Rota 5, comprimento: 72, 	Rota 4, comprimento: 89, 	Rota 3, comprimento: 51, 	Rota 2, comprimento: 52, 	Rota 1, comprimento: 51]
@@ -17,7 +17,7 @@ Tempo: 20
 
 ### caminhoes_disperso.txt
 
-Tempo: 4
+Tempo: 5
 
 - Caminhao 1, total KM: 695
 	- rotas: [	Rota 11, comprimento: 187, 	Rota 8, comprimento: 78, 	Rota 7, comprimento: 94, 	Rota 6, comprimento: 135, 	Rota 4, comprimento: 53, 	Rota 3, comprimento: 98, 	Rota 2, comprimento: 50]
@@ -35,7 +35,7 @@ Tempo: 4
 
 ### caminhoes_longo.txt
 
-Tempo: 10
+Tempo: 15
 
 - Caminhao 1, total KM: 1038
 	- rotas: [	Rota 12, comprimento: 119, 	Rota 11, comprimento: 83, 	Rota 10, comprimento: 78, 	Rota 8, comprimento: 107, 	Rota 6, comprimento: 131, 	Rota 5, comprimento: 123, 	Rota 4, comprimento: 138, 	Rota 3, comprimento: 110, 	Rota 1, comprimento: 149]
@@ -75,7 +75,7 @@ Tempo: 10
 ## Metodo Guloso :
 ### caminhoes_compacto.txt
 
-Tempo: 7
+Tempo: 9
 
 - Caminhao 3, total KM: 566
 	- rotas: [	Rota 16, comprimento: 87, 	Rota 19, comprimento: 84, 	Rota 9, comprimento: 75, 	Rota 5, comprimento: 72, 	Rota 11, comprimento: 71, 	Rota 22, comprimento: 64, 	Rota 6, comprimento: 62, 	Rota 1, comprimento: 51]
@@ -90,7 +90,7 @@ Tempo: 7
 
 ### caminhoes_disperso.txt
 
-Tempo: 5
+Tempo: 23
 
 - Caminhao 3, total KM: 684
 	- rotas: [	Rota 12, comprimento: 179, 	Rota 1, comprimento: 138, 	Rota 14, comprimento: 126, 	Rota 21, comprimento: 105, 	Rota 22, comprimento: 82, 	Rota 24, comprimento: 54]
@@ -108,7 +108,7 @@ Tempo: 5
 
 ### caminhoes_longo.txt
 
-Tempo: 20
+Tempo: 36
 
 - Caminhao 5, total KM: 1017
 	- rotas: [	Rota 75, comprimento: 166, 	Rota 93, comprimento: 149, 	Rota 90, comprimento: 130, 	Rota 86, comprimento: 129, 	Rota 42, comprimento: 111, 	Rota 57, comprimento: 106, 	Rota 54, comprimento: 89, 	Rota 84, comprimento: 78, 	Rota 71, comprimento: 59]
@@ -148,7 +148,7 @@ Tempo: 20
 # Temperaturas
 ### temperaturas.txt
 
-Tempo: 6
+Tempo: 7
 
 - Período: 1
 	- Dia do ano inicial: 65
@@ -189,7 +189,7 @@ Tempo: 6
 
 ### temperaturasExtremo.txt
 
-Tempo: 1
+Tempo: 6
 
 - Período: 1
 	- Dia do ano inicial: 24

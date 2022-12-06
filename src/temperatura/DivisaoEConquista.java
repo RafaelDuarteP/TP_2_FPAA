@@ -6,9 +6,6 @@ public class DivisaoEConquista {
 	static int diasAno = 365;
 	static int indexPrimario = 0;
 
-	public static void main(String[] args) {
-	}
-
 	public static String calculaClima(TemperaturasUtils utils) {
 		StringBuilder builder = new StringBuilder();
 
