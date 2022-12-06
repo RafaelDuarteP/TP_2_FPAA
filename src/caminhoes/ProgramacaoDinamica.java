@@ -4,15 +4,7 @@ import java.util.List;
 
 public class ProgramacaoDinamica {
 
-	public static void main(String[] args) {
-
-		distribuirRotas("src/caminhoes/entradas/caminhoes_compacto.txt").forEach(c -> System.out.println(c));
-	}
-
-	static List<Caminhao> distribuirRotas(String nomeArquivo) {
-
-		RotaUtils utils = new RotaUtils(nomeArquivo);
-
+	public static List<Caminhao> distribuirRotas(RotaUtils utils) {
 		List<Caminhao> caminhoes = utils.getCaminhoes();
 		List<Rota> rotas = utils.getRotas();
 

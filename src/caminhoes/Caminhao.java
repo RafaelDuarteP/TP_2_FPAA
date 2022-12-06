@@ -45,11 +45,10 @@ public class Caminhao {
 	@Override
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
-		builder.append("Caminhao id: " + this.id +  ", total KM: ");
+		builder.append("- Caminhao ").append(this.id).append(", total KM: ");
 		builder.append(this.getTotalKm());
-		builder.append("\n rotas: ");
+		builder.append("\n\t- rotas: ");
 		builder.append(this.rotas);
-		builder.append("]");
 		return builder.toString();
 	}
 
