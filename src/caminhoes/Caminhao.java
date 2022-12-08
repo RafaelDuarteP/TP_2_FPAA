@@ -28,10 +28,6 @@ public class Caminhao {
 		rotas.remove(rota);
 	}
 
-	public void removeRota(Rota rota) {
-		rotas.remove(rota);
-	}
-
 	public List<Rota> getRotas() {
 		return this.rotas;
 	}
