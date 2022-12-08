@@ -2,7 +2,7 @@
 ## Metodo Dinamico :
 ### caminhoes_compacto.txt
 
-Tempo: 18
+Tempo: 13
 
 - Caminhao 1, total KM: 586
 	- rotas: [	Rota 12, comprimento: 56, 	Rota 9, comprimento: 75, 	Rota 8, comprimento: 66, 	Rota 7, comprimento: 74, 	Rota 5, comprimento: 72, 	Rota 4, comprimento: 89, 	Rota 3, comprimento: 51, 	Rota 2, comprimento: 52, 	Rota 1, comprimento: 51]
@@ -17,7 +17,7 @@ Tempo: 18
 
 ### caminhoes_disperso.txt
 
-Tempo: 5
+Tempo: 3
 
 - Caminhao 1, total KM: 695
 	- rotas: [	Rota 11, comprimento: 187, 	Rota 8, comprimento: 78, 	Rota 7, comprimento: 94, 	Rota 6, comprimento: 135, 	Rota 4, comprimento: 53, 	Rota 3, comprimento: 98, 	Rota 2, comprimento: 50]
@@ -35,7 +35,7 @@ Tempo: 5
 
 ### caminhoes_longo.txt
 
-Tempo: 15
+Tempo: 7
 
 - Caminhao 1, total KM: 1038
 	- rotas: [	Rota 12, comprimento: 119, 	Rota 11, comprimento: 83, 	Rota 10, comprimento: 78, 	Rota 8, comprimento: 107, 	Rota 6, comprimento: 131, 	Rota 5, comprimento: 123, 	Rota 4, comprimento: 138, 	Rota 3, comprimento: 110, 	Rota 1, comprimento: 149]
@@ -75,7 +75,7 @@ Tempo: 15
 ## Metodo Guloso :
 ### caminhoes_compacto.txt
 
-Tempo: 9
+Tempo: 4
 
 - Caminhao 3, total KM: 566
 	- rotas: [	Rota 16, comprimento: 87, 	Rota 19, comprimento: 84, 	Rota 9, comprimento: 75, 	Rota 5, comprimento: 72, 	Rota 11, comprimento: 71, 	Rota 22, comprimento: 64, 	Rota 6, comprimento: 62, 	Rota 1, comprimento: 51]
@@ -90,7 +90,7 @@ Tempo: 9
 
 ### caminhoes_disperso.txt
 
-Tempo: 23
+Tempo: 1
 
 - Caminhao 3, total KM: 684
 	- rotas: [	Rota 12, comprimento: 179, 	Rota 1, comprimento: 138, 	Rota 14, comprimento: 126, 	Rota 21, comprimento: 105, 	Rota 22, comprimento: 82, 	Rota 24, comprimento: 54]
@@ -108,7 +108,7 @@ Tempo: 23
 
 ### caminhoes_longo.txt
 
-Tempo: 36
+Tempo: 12
 
 - Caminhao 5, total KM: 1017
 	- rotas: [	Rota 75, comprimento: 166, 	Rota 93, comprimento: 149, 	Rota 90, comprimento: 130, 	Rota 86, comprimento: 129, 	Rota 42, comprimento: 111, 	Rota 57, comprimento: 106, 	Rota 54, comprimento: 89, 	Rota 84, comprimento: 78, 	Rota 71, comprimento: 59]
@@ -145,10 +145,83 @@ Tempo: 36
 
 
 
+## Backtracking :
+### caminhoes_compacto.txt
+
+Tempo: 6
+
+- Caminhao 1, total KM: 587
+	- rotas: [	Rota 4, comprimento: 89, 	Rota 21, comprimento: 89, 	Rota 16, comprimento: 87, 	Rota 19, comprimento: 84, 	Rota 13, comprimento: 83, 	Rota 15, comprimento: 80, 	Rota 9, comprimento: 75]
+
+- Caminhao 2, total KM: 580
+	- rotas: [	Rota 20, comprimento: 80, 	Rota 7, comprimento: 74, 	Rota 24, comprimento: 73, 	Rota 5, comprimento: 72, 	Rota 10, comprimento: 71, 	Rota 11, comprimento: 71, 	Rota 17, comprimento: 70, 	Rota 14, comprimento: 69]
+
+- Caminhao 3, total KM: 581
+	- rotas: [	Rota 8, comprimento: 66, 	Rota 25, comprimento: 66, 	Rota 22, comprimento: 64, 	Rota 6, comprimento: 62, 	Rota 23, comprimento: 59, 	Rota 12, comprimento: 56, 	Rota 18, comprimento: 54, 	Rota 2, comprimento: 52, 	Rota 1, comprimento: 51, 	Rota 3, comprimento: 51]
+
+
+
+### caminhoes_disperso.txt
+
+Tempo: 2
+
+- Caminhao 1, total KM: 689
+	- rotas: [	Rota 11, comprimento: 187, 	Rota 13, comprimento: 185, 	Rota 12, comprimento: 179, 	Rota 1, comprimento: 138]
+
+- Caminhao 2, total KM: 693
+	- rotas: [	Rota 17, comprimento: 166, 	Rota 18, comprimento: 149, 	Rota 6, comprimento: 135, 	Rota 19, comprimento: 131, 	Rota 15, comprimento: 112]
+
+- Caminhao 3, total KM: 694
+	- rotas: [	Rota 9, comprimento: 129, 	Rota 14, comprimento: 126, 	Rota 10, comprimento: 118, 	Rota 23, comprimento: 109, 	Rota 20, comprimento: 107, 	Rota 21, comprimento: 105]
+
+- Caminhao 4, total KM: 684
+	- rotas: [	Rota 3, comprimento: 98, 	Rota 7, comprimento: 94, 	Rota 16, comprimento: 92, 	Rota 5, comprimento: 83, 	Rota 22, comprimento: 82, 	Rota 8, comprimento: 78, 	Rota 24, comprimento: 54, 	Rota 4, comprimento: 53, 	Rota 2, comprimento: 50]
+
+
+
+### caminhoes_longo.txt
+
+Tempo: 8
+
+- Caminhao 1, total KM: 1000
+	- rotas: [	Rota 73, comprimento: 169, 	Rota 21, comprimento: 168, 	Rota 31, comprimento: 168, 	Rota 53, comprimento: 167, 	Rota 75, comprimento: 166, 	Rota 60, comprimento: 162]
+
+- Caminhao 2, total KM: 1039
+	- rotas: [	Rota 22, comprimento: 161, 	Rota 82, comprimento: 160, 	Rota 58, comprimento: 159, 	Rota 41, comprimento: 158, 	Rota 64, comprimento: 157, 	Rota 76, comprimento: 156, 	Rota 99, comprimento: 88]
+
+- Caminhao 3, total KM: 1039
+	- rotas: [	Rota 87, comprimento: 156, 	Rota 19, comprimento: 155, 	Rota 50, comprimento: 152, 	Rota 48, comprimento: 151, 	Rota 1, comprimento: 149, 	Rota 93, comprimento: 149, 	Rota 18, comprimento: 127]
+
+- Caminhao 4, total KM: 995
+	- rotas: [	Rota 27, comprimento: 146, 	Rota 98, comprimento: 146, 	Rota 88, comprimento: 144, 	Rota 44, comprimento: 142, 	Rota 72, comprimento: 140, 	Rota 40, comprimento: 139, 	Rota 4, comprimento: 138]
+
+- Caminhao 5, total KM: 1039
+	- rotas: [	Rota 45, comprimento: 137, 	Rota 69, comprimento: 137, 	Rota 51, comprimento: 136, 	Rota 37, comprimento: 132, 	Rota 6, comprimento: 131, 	Rota 26, comprimento: 131, 	Rota 46, comprimento: 131, 	Rota 55, comprimento: 104]
+
+- Caminhao 6, total KM: 1018
+	- rotas: [	Rota 90, comprimento: 130, 	Rota 86, comprimento: 129, 	Rota 89, comprimento: 128, 	Rota 35, comprimento: 127, 	Rota 101, comprimento: 127, 	Rota 14, comprimento: 126, 	Rota 56, comprimento: 126, 	Rota 34, comprimento: 125]
+
+- Caminhao 7, total KM: 1039
+	- rotas: [	Rota 5, comprimento: 123, 	Rota 66, comprimento: 123, 	Rota 81, comprimento: 122, 	Rota 23, comprimento: 121, 	Rota 7, comprimento: 120, 	Rota 12, comprimento: 119, 	Rota 62, comprimento: 119, 	Rota 74, comprimento: 118, 	Rota 65, comprimento: 74]
+
+- Caminhao 8, total KM: 990
+	- rotas: [	Rota 97, comprimento: 115, 	Rota 94, comprimento: 114, 	Rota 33, comprimento: 111, 	Rota 42, comprimento: 111, 	Rota 3, comprimento: 110, 	Rota 79, comprimento: 109, 	Rota 8, comprimento: 107, 	Rota 96, comprimento: 107, 	Rota 57, comprimento: 106]
+
+- Caminhao 9, total KM: 1038
+	- rotas: [	Rota 52, comprimento: 105, 	Rota 95, comprimento: 104, 	Rota 24, comprimento: 103, 	Rota 39, comprimento: 102, 	Rota 91, comprimento: 100, 	Rota 38, comprimento: 99, 	Rota 29, comprimento: 96, 	Rota 83, comprimento: 96, 	Rota 15, comprimento: 92, 	Rota 28, comprimento: 90, 	Rota 100, comprimento: 51]
+
+- Caminhao 10, total KM: 1003
+	- rotas: [	Rota 49, comprimento: 89, 	Rota 54, comprimento: 89, 	Rota 30, comprimento: 87, 	Rota 67, comprimento: 86, 	Rota 70, comprimento: 86, 	Rota 13, comprimento: 85, 	Rota 11, comprimento: 83, 	Rota 43, comprimento: 83, 	Rota 59, comprimento: 80, 	Rota 61, comprimento: 79, 	Rota 10, comprimento: 78, 	Rota 36, comprimento: 78]
+
+- Caminhao 11, total KM: 1014
+	- rotas: [	Rota 63, comprimento: 78, 	Rota 84, comprimento: 78, 	Rota 17, comprimento: 77, 	Rota 20, comprimento: 77, 	Rota 25, comprimento: 72, 	Rota 47, comprimento: 70, 	Rota 85, comprimento: 69, 	Rota 92, comprimento: 67, 	Rota 68, comprimento: 65, 	Rota 80, comprimento: 63, 	Rota 32, comprimento: 62, 	Rota 78, comprimento: 62, 	Rota 16, comprimento: 59, 	Rota 71, comprimento: 59, 	Rota 9, comprimento: 56]
+
+
+
 # Temperaturas
 ### temperaturas.txt
 
-Tempo: 7
+Tempo: 3
 
 - Período: 1
 	- Dia do ano inicial: 65
@@ -189,7 +262,7 @@ Tempo: 7
 
 ### temperaturasExtremo.txt
 
-Tempo: 6
+Tempo: 0
 
 - Período: 1
 	- Dia do ano inicial: 24
@@ -222,6 +295,32 @@ Tempo: 6
 - Período: 5
 	- Dia do ano inicial: 9
 	- Dia do ano final: 18
+	- Valor maior subsequência : 42
+	- Tamanho maior subsequência : 10
+	- [11, 10, 2, 9, 2, -2, 3, 1, 5, 1]
+
+
+
+### temperaturas.txt
+
+Tempo: 1
+
+- Anos: 
+	- Dia do ano inicial: 65
+	- Dia do ano final: 70
+	- Valor maior subsequência : 21
+	- Tamanho maior subsequência : 6
+	- [1, 1, 5, 6, 2, 6]
+
+
+
+### temperaturasExtremo.txt
+
+Tempo: 1
+
+- Anos: 
+	- Dia do ano inicial: 1469
+	- Dia do ano final: 1478
 	- Valor maior subsequência : 42
 	- Tamanho maior subsequência : 10
 	- [11, 10, 2, 9, 2, -2, 3, 1, 5, 1]
